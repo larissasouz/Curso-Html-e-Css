@@ -4,17 +4,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta charset="UTF-8">
     <title>Document</title>
-    <style type="text/css">
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+        var nome=prompt("Seja bem vindo! Por favor, insira seu nome!(opcional)")
+    </script>
 </head>
 <body>
-    <img src="imagem/greysanatomy.jpg" alt="Imagem-Greys-Anatomy" height="400" width="600">
+    
+    <figure id="imagem-topo">
+        <img src="imagem/greys.png" alt="Imagem-Greys-Anatomy" >
+    </figure>
+    
+    <h1>Greys Anatomy</h1>
 
 
-   <h1>Greys Anatomy</h1>
+    <p class="nome">
+        <script type="text/javascript">
+            if(nome != null)
+                document.write("Olá "+nome+"! Seja muito bem vindo(a) ao nosso site de Greys Anatomy!");
+            else
+                document.write("Seja muito bem vindo(a) ao nosso site de Greys Anatomy!")
+            
+        </script>
+    </p>
 
-   <h2>O que é?</h2>
+    <h2>O que é?</h2>
 
         <p>
             Grey's Anatomy (no Brasil, A Anatomia de Grey ou Grey's Anatomy - Portugal, Anatomia de Grey) é um drama médico norte-americano 
@@ -52,7 +66,6 @@
         <footer>
             <p><b>FEITO POR:</b> LARISSA SOUZA</p>
             <p><b>CONTATO:</b>(12) 98179-3065</p>
-            <p><b>WHATSAPP:</b>(12) 99236-2370</p>
         </footer>
 
 </body>

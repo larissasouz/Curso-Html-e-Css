@@ -1,0 +1,40 @@
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    
+    }
+    #imagem-topo{
+        background-color: #87CEEB;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-family: arial;
+        background-color: #9bd9ff;
+        color: #191970;
+    }
+    h2{
+        margin: 15px;
+        font-family: arial;
+    }
+    p{
+        margin: 15px;
+        text-align: justify;
+        font-family: arial;
+        font-size: 16px;
+    }
+    footer{
+        background-color: #F0FFFF;
+        text-align: center;
+        font-family: arial;
+    }
+    img{
+        width: 30%;
+        height: 30%;
+    }
+    .nome{
+        text-align: center;
+        font-family: arial;
+    }
+    
